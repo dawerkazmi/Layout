@@ -9,9 +9,6 @@
 
 .parent {
     margin:0 auto;
-    border: 4px solid black;
-    background-color: pink;
-
     display: grid;
     grid-template-columns: 100px 300px 100px;
     grid-template-rows: 80px 300px 300px 80px;
@@ -20,13 +17,13 @@
 }
 
 .box1 {
-    border: 2px solid white;
+    border: 2px solid black;
     grid-column-start: 1;
     grid-column-end: 6;
     background-color: orange;
 }
 .box2 {
-    border: 2px solid white;
+    border: 2px solid black;
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -34,23 +31,23 @@
     background-color: orangered;
 }
 .box3 {
-    border: 2px solid white;
+    border: 2px solid black;
     grid-column-start: 3;
     grid-column-end: 6;
     background-color: red;
 }
 .box4 {
-    border: 2px solid white;
+    border: 2px solid black;
     grid-column-start: 3;
     grid-column-end: 5;
    background-color: purple;
 }
 .box5 { 
-    border: 2px solid white;
+    border: 2px solid black;
    background-color: purple;
 }
 .box6 {
-    border: 2px solid white;
+    border: 2px solid black;
     grid-column-start: 1;
     grid-column-end: 6;
    background-color: orange;
